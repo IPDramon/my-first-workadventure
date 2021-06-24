@@ -6,13 +6,14 @@
 console.log('Script started successfully');
 // WA.openCoWebSite('https://workadventu.re');
 
-const ZONE_TEST = "popupTest";
+const ZONE_LIVESTREAM = "zoneLivestream";
+const POPUP_LIVESTREAM = "popupLivestream";
 const URL_LIVESTREAM = "https://duckduckgo.com";
 
 let currentPopup: any = undefined;
 
-WA.onEnterZone(ZONE_TEST, () => {
-    currentPopup = WA.openPopup("popupTest", "Open Youtube live stream in new tab.", [
+WA.onEnterZone(ZONE_LIVESTREAM, () => {
+    currentPopup = WA.openPopup(POPUP_LIVESTREAM, "Open Youtube live stream in new tab.", [
         {
             label: "Open tab",
             className: "normal",
@@ -23,7 +24,7 @@ WA.onEnterZone(ZONE_TEST, () => {
     ]);
 });
 
-WA.onLeaveZone(ZONE_TEST, closePopUp);
+WA.onLeaveZone(ZONE_LIVESTREAM, closePopUp);
 
 function closePopUp() {
     if (currentPopup !== undefined) {
