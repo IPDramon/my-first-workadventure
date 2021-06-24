@@ -1,2 +1,2 @@
-(()=>{"use strict";console.log("Script started successfully")})();
+(()=>{"use strict";console.log("Script started successfully");const e="popupTest";let o;WA.onEnterZone(e,(()=>{o=WA.openPopup("popupTest","Open Youtube live stream in new tab.",[{label:"Open tab",className:"normal",callback:e=>{WA.openTab("https://duckduckgo.com")}}])})),WA.onLeaveZone(e,(function(){void 0!==o&&(o.close(),o=void 0)}))})();
 //# sourceMappingURL=script.js.map
