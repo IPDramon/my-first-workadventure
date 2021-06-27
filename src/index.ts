@@ -9,7 +9,7 @@ console.log('Script started successfully');
 const ZONE_LIVESTREAM = "zoneLivestream";
 const ZONE_CONTROLS = "zoneControls";
 const POPUP_LIVESTREAM = "popupLivestream";
-const POPUP_CONTROLS = "popupLivestream";
+const POPUP_CONTROLS = "popupControls";
 const URL_LIVESTREAM = "https://duckduckgo.com";
 
 let currentPopup: any = undefined;
