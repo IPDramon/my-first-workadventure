@@ -7,9 +7,11 @@ console.log('Script started successfully');
 // WA.openCoWebSite('https://workadventu.re');
 
 const ZONE_LIVESTREAM = "zoneLivestream";
-const ZONE_CONTROLS = "zoneControls";
 const POPUP_LIVESTREAM = "popupLivestream";
+const ZONE_CONTROLS = "zoneControls";
 const POPUP_CONTROLS = "popupControls";
+const ZONE_MATE = "zoneMate";
+const POPUP_MATE = "popupMate";
 const URL_LIVESTREAM = "https://duckduckgo.com";
 
 let currentPopup: any = undefined;
@@ -30,8 +32,13 @@ WA.onEnterZone(ZONE_CONTROLS, () => {
     currentPopup = WA.openPopup(POPUP_CONTROLS, "Move: W/A/S/D or Arrow keys; Run: Hold Shift; Zoom: Scroll wheel", []);
 });
 
+WA.onEnterZone(ZONE_MATE, () => {
+    currentPopup = WA.openPopup(POPUP_MATE, "Club Mate = 1€", []);
+});
+
 WA.onLeaveZone(ZONE_LIVESTREAM, closePopUp);
 WA.onLeaveZone(ZONE_CONTROLS, closePopUp);
+WA.onLeaveZone(ZONE_MATE, closePopUp);
 
 function closePopUp() {
     if (currentPopup !== undefined) {
