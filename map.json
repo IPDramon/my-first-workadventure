@@ -23,7 +23,7 @@
                  "value":"zoneLivestream"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":108,
          "x":0,
          "y":0
@@ -64,7 +64,7 @@
                  "value":"jitsicoffeeheaven"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":108,
          "x":0,
          "y":0
@@ -87,7 +87,7 @@
                  "value":"jitsired"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":108,
          "x":0,
          "y":0
@@ -110,7 +110,7 @@
                  "value":"jitsiyellow"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":108,
          "x":0,
          "y":0
@@ -133,7 +133,7 @@
                  "value":"jitsigreen"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":108,
          "x":0,
          "y":0
@@ -156,7 +156,7 @@
                  "value":"jitsiblue"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":108,
          "x":0,
          "y":0
@@ -168,7 +168,7 @@
          "name":"start",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":108,
          "x":0,
          "y":0
@@ -180,7 +180,7 @@
          "name":"bottom",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":108,
          "x":0,
          "y":0
@@ -192,7 +192,7 @@
          "name":"carpet",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":108,
          "x":0,
          "y":0
@@ -204,7 +204,7 @@
          "name":"pots",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":108,
          "x":0,
          "y":0
@@ -216,7 +216,7 @@
          "name":"desks",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":108,
          "x":0,
          "y":0
@@ -228,7 +228,7 @@
          "name":"on_desks",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":108,
          "x":0,
          "y":0
@@ -245,7 +245,7 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":322,
+                 "width":226,
                  "x":32,
                  "y":703
                 }, 
@@ -273,7 +273,7 @@
          "name":"plants",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":108,
          "x":0,
          "y":0
@@ -285,7 +285,7 @@
          "name":"curtains",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":108,
          "x":0,
          "y":0
