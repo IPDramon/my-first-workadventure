@@ -239,15 +239,15 @@
          "name":"floorLayer",
          "objects":[
                 {
-                 "height":186,
+                 "height":126,
                  "id":1,
                  "name":"popupControls",
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":218,
-                 "x":34,
-                 "y":545
+                 "width":322,
+                 "x":32,
+                 "y":703
                 }, 
                 {
                  "height":120,
@@ -262,7 +262,7 @@
                 }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }, 
