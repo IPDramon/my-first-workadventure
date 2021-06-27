@@ -27,7 +27,7 @@ WA.onEnterZone(ZONE_LIVESTREAM, () => {
 });
 
 WA.onEnterZone(ZONE_CONTROLS, () => {
-    currentPopup = WA.openPopup(POPUP_CONTROLS, "Controls:<br/>Move: W/A/S/D or Arrow keys<br/>Run: Hold Shift<br/>Zoom: Scroll wheel", []);
+    currentPopup = WA.openPopup(POPUP_CONTROLS, "Move: W/A/S/D or Arrow keys; Run: Hold Shift; Zoom: Scroll wheel", []);
 });
 
 WA.onLeaveZone(ZONE_LIVESTREAM, closePopUp);
