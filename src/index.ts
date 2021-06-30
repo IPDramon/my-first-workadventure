@@ -12,7 +12,7 @@ const ZONE_CONTROLS = "zoneControls";
 const POPUP_CONTROLS = "popupControls";
 const ZONE_MATE = "zoneMate";
 const POPUP_MATE = "popupMate";
-const URL_LIVESTREAM = "https://duckduckgo.com";
+const URL_LIVESTREAM = "https://youtu.be/4itNTTCd_EE";
 
 let currentPopup: any = undefined;
 
